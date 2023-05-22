@@ -75,12 +75,14 @@ export const Projects = ({ projectsRef }) => {
       <div className="icon-container">
         <img src="./images/react.png" alt="React"/>
         <img src="./images/api.png" alt="API"/>
-        <button
-          className="code-btn"
-          onClick={() => (window.location.href = "https://github.com/Crowbr1995/Weather-App")}
-        >
-        Code
-      </button>
+        <div className="site-container">
+          <a className="code-btn" href="https://github.com/Crowbr1995/react-weather-app" target="_blank">
+          Code
+          </a>
+          <a className="code-btn" href="https://crowbr1995.github.io/react-weather-app/" target="_blank">
+          Live Site
+          </a>
+        </div>
       </div>
     </div>
   )
@@ -94,12 +96,14 @@ export const Projects = ({ projectsRef }) => {
     <h3>Technologies</h3>
     <div className="icon-container-2">
       <img src="./images/react.png" alt="React"/>
-      <button
-        className="code-btn-2"
-        onClick={() => (window.location.href = "https://github.com/Crowbr1995/react-todo-lis")}
-      >
-        Code
-      </button>
+      <div className="site-container">
+          <a className="code-btn" href="https://github.com/Crowbr1995/react-todo-list" target="_blank">
+          Code
+          </a>
+          <a className="code-btn" href="https://crowbr1995.github.io/react-todo-list/" target="_blank">
+          Live Site
+          </a>
+      </div>
     </div>
   </div>  
   )
@@ -115,12 +119,14 @@ export const Projects = ({ projectsRef }) => {
         <img src="./images/html.png" alt="HTML"/>
         <img src="./images/css.png" alt="CSS"/>
         <img src="./images/js.png" alt="JavaScript"/>
-        <button
-            className="code-btn"
-            onClick={() => (window.location.href = "https://github.com/Crowbr1995/JS-Tic-Tac-Toe")}
-          >
-        Code
-      </button>
+        <div className="site-container">
+          <a className="code-btn" href="https://github.com/Crowbr1995/JS-Tic-Tac-Toe" target="_blank">
+          Code
+          </a>
+          <a className="code-btn" href="https://crowbr1995.github.io/JS-Tic-Tac-Toe/" target="_blank">
+          Live Site
+          </a>
+        </div>
       </div>
     </div>
   )

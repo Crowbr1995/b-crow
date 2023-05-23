@@ -73,8 +73,10 @@ export const Projects = ({ projectsRef }) => {
       </p>
       <h3>Technologies</h3>
       <div className="icon-container">
-        <img src="./images/react.png" alt="React"/>
-        <img src="./images/api.png" alt="API"/>
+        <div>
+          <img src="./images/react.png" alt="React"/>
+          <img src="./images/api.png" alt="API"/>
+        </div>
         <div className="site-container">
           <a className="code-btn" href="https://github.com/Crowbr1995/react-weather-app" target="_blank">
           Code
@@ -95,7 +97,9 @@ export const Projects = ({ projectsRef }) => {
     </p>
     <h3>Technologies</h3>
     <div className="icon-container-2">
-      <img src="./images/react.png" alt="React"/>
+      <div>
+        <img src="./images/react.png" alt="React"/>
+      </div>
       <div className="site-container">
           <a className="code-btn" href="https://github.com/Crowbr1995/react-todo-list" target="_blank">
           Code
@@ -116,9 +120,11 @@ export const Projects = ({ projectsRef }) => {
       </p>
       <h3>Technologies</h3>
       <div className="icon-container">
-        <img src="./images/html.png" alt="HTML"/>
-        <img src="./images/css.png" alt="CSS"/>
-        <img src="./images/js.png" alt="JavaScript"/>
+        <div>
+          <img src="./images/html.png" alt="HTML"/>
+          <img src="./images/css.png" alt="CSS"/>
+          <img src="./images/js.png" alt="JavaScript"/>
+        </div>
         <div className="site-container">
           <a className="code-btn" href="https://github.com/Crowbr1995/JS-Tic-Tac-Toe" target="_blank">
           Code

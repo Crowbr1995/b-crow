@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/b-crow.io/static/css/main.98e773f0.css",
+    "main.js": "/b-crow.io/static/js/main.e3891208.js",
+    "static/js/787.1ed0c42c.chunk.js": "/b-crow.io/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/b-crow.io/index.html",
+    "main.98e773f0.css.map": "/b-crow.io/static/css/main.98e773f0.css.map",
+    "main.e3891208.js.map": "/b-crow.io/static/js/main.e3891208.js.map",
+    "787.1ed0c42c.chunk.js.map": "/b-crow.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e773f0.css",
+    "static/js/main.e3891208.js"
+  ]
+}
